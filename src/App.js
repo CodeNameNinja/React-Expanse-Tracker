@@ -27,7 +27,7 @@ function App() {
  
   
   return (
-   <div className="App-header">     
+   <div>     
         <Expenses expenses={expenses}/>
     </div>
   );

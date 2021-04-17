@@ -8,7 +8,7 @@ function Expenses(props){
       });
     return (
         <Card className="expenses">
-            <ul>{expenseList}</ul>   
+            {expenseList}
         </Card>
     )
 }
