@@ -2,7 +2,10 @@ import "./App.css";
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense"
 const App = () => {
-  const expenses = [
+  const saveExpense = (payload) =>{
+    expenses.push(payload);
+  } 
+  let expenses = [
     {
       id: "e1",
       title: "Toilet Paper",
@@ -26,7 +29,7 @@ const App = () => {
 
   return (
     <div>
-      <NewExpense />
+      <NewExpense onSave={saveExpense}/>
       <Expenses expenses={expenses} />
     </div>
   );
