@@ -33,10 +33,12 @@ const App = () => {
       return [payload,...prevData ];
     });
   };
+
+
   return (
     <div>
       <NewExpense onSave={saveExpense} />
-      <Expenses expenses={expenses} />
+      <Expenses expenses={expenses}/>
     </div>
   );
 };
