@@ -11,13 +11,20 @@ const Expenses = (props) => {
         title={expense.title}
         amount={expense.amount}
         date={expense.date}
+        key={expense.id}
       />
     );
   });
+
+  const filter = (payload) => {
+    console.log(payload);
+  };
   return (
     <div>
-      <ExpensesFilter />
-      <Card className="expenses">{expenseList}</Card>
+      <Card className="expenses">
+        <ExpensesFilter onFilter={filter} />
+        {expenseList}
+      </Card>
     </div>
   );
 };
