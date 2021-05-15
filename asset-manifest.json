@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Expanse-Tracker/static/css/main.34aaff5d.chunk.css",
+    "main.js": "/React-Expanse-Tracker/static/js/main.ecf1ad93.chunk.js",
+    "main.js.map": "/React-Expanse-Tracker/static/js/main.ecf1ad93.chunk.js.map",
+    "runtime-main.js": "/React-Expanse-Tracker/static/js/runtime-main.69d723fb.js",
+    "runtime-main.js.map": "/React-Expanse-Tracker/static/js/runtime-main.69d723fb.js.map",
+    "static/js/2.5bf84268.chunk.js": "/React-Expanse-Tracker/static/js/2.5bf84268.chunk.js",
+    "static/js/2.5bf84268.chunk.js.map": "/React-Expanse-Tracker/static/js/2.5bf84268.chunk.js.map",
+    "static/js/3.624750b8.chunk.js": "/React-Expanse-Tracker/static/js/3.624750b8.chunk.js",
+    "static/js/3.624750b8.chunk.js.map": "/React-Expanse-Tracker/static/js/3.624750b8.chunk.js.map",
+    "index.html": "/React-Expanse-Tracker/index.html",
+    "static/css/main.34aaff5d.chunk.css.map": "/React-Expanse-Tracker/static/css/main.34aaff5d.chunk.css.map",
+    "static/js/2.5bf84268.chunk.js.LICENSE.txt": "/React-Expanse-Tracker/static/js/2.5bf84268.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69d723fb.js",
+    "static/js/2.5bf84268.chunk.js",
+    "static/css/main.34aaff5d.chunk.css",
+    "static/js/main.ecf1ad93.chunk.js"
+  ]
+}
